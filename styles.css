@@ -1,1 +1,22 @@
 /*  your css code here. If applicable */
+ body {
+      background-color: #cccccc;
+    }
+
+    .player_one a::after {
+      content: attr(data-song);
+      display: block;
+    }
+
+    .player_one a {
+      display: block;
+      margin-bottom: 10px;
+    }
+
+    .player_two video {
+      width: 100%;
+    }
+
+    .mp3_player audio {
+      width: 100%;
+    }
