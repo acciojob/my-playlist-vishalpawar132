@@ -1,7 +1,7 @@
 /*  your css code here. If applicable */
  body {
       background-color: #cccccc;
-	  text-decoration-line: none;
+	  
     }
 
 h2{
@@ -9,6 +9,11 @@ h2{
 }
 li{
 	list-style-type: none;
+	
+}
+
+a{
+	text-decoration-line: none;
 }
 .player_one{
 		padding: 10px;
