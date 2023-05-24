@@ -3,10 +3,18 @@
       background-color: #cccccc;
     }
 
-    .player_one a::after {
-      content: attr(data-song);
-      display: block;
-    }
+h2{
+   text-align: center;
+}
+
+.player_one{
+		padding: 10px;
+		border: 1px solid black;
+		border-radius: 5px;
+		background: white;
+        content: attr(data-song);
+        display: block;
+}
 
     .player_one a {
       display: block;
@@ -20,3 +28,17 @@
     .mp3_player audio {
       width: 100%;
     }
+
+video{
+	width: 50%;
+}
+audio{
+	width: 100%;
+}
+.player_two{
+	    padding: 10px;
+		border: 1px solid black;
+		border-radius: 5px;
+		background: white;
+        display: block;
+}
