@@ -1,12 +1,15 @@
 /*  your css code here. If applicable */
  body {
       background-color: #cccccc;
+	  text-decoration-line: none;
     }
 
 h2{
    text-align: center;
 }
-
+li{
+	list-style-type: none;
+}
 .player_one{
 		padding: 10px;
 		border: 1px solid black;
